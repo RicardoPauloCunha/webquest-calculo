@@ -2,6 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 
+import definicao1 from '../assets/definicao-1.jpg'
+
 const Home: React.FC = () => {
     return (
         <section>
@@ -13,7 +15,7 @@ const Home: React.FC = () => {
 
             <figure className="figure-width-100">
                 <Image
-                    src="https://i.ibb.co/M2V3pq3/definicao-1.jpg"
+                    src={definicao1}
                     alt="Banner de definição sobre cálculo. Foto de cottonbro no Pexels"
                     width={664}
                     height={122}

@@ -2,6 +2,8 @@ import React, { useRef } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 
+import historia1 from '../../assets/historia-1.png'
+
 const Historia = () => {
     const subtitle1 = useRef(null);
     const subtitle2 = useRef(null);
@@ -148,7 +150,7 @@ const Historia = () => {
             </p>
             <div>
                 <Image
-                    src="https://i.ibb.co/CB1zY0x/historia-1.png"
+                    src={historia1}
                     alt="Demonstração do cálculo de integral usado atualmente"
                     width={196}
                     height={66}
