@@ -69,7 +69,7 @@ export const Container = styled.nav<ContainerProps>`
 
             flex-direction: row;
             align-items: center;
-            z-index: 1;
+            z-index: 1000;
 
             >span:first-of-type {
                 margin-right: 1rem;
@@ -82,11 +82,11 @@ export const Container = styled.nav<ContainerProps>`
 
         >div.menu-shandow {
             display: block;
-            z-index: 0;
+            z-index: 999;
         }
 
         >ul {
-            z-index: 1;
+            z-index: 1000;
             height: 100%;
         }
 
