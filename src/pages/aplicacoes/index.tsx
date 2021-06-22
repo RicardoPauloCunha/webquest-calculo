@@ -5,7 +5,7 @@ const Aplicacoes = () => {
     return (
         <section>
             <Head>
-                <title>Aplicações | Webquest Cálculo</title>
+                <title>Aplicações - Webquest Cálculo</title>
             </Head>
 
             <h1>Aplicações da Integral</h1>

@@ -1,5 +1,11 @@
 import React, { useRef } from 'react'
 import Head from 'next/head'
+import Image from 'next/image'
+
+import matematico1 from '../../assets/matematico-1.jpg'
+import matematico2 from '../../assets/matematico-2.jpg'
+import matematico3 from '../../assets/matematico-3.jpg'
+import matematico4 from '../../assets/matematico-4.jpeg'
 
 const Matematicos = () => {
     const subtitle1 = useRef(null);
@@ -27,7 +33,7 @@ const Matematicos = () => {
     return (
         <section>
             <Head>
-                <title>Matemáticos | Webquest Cálculo</title>
+                <title>Matemáticos - Webquest Cálculo</title>
             </Head>
 
             <h1>Matemáticos</h1>
@@ -54,6 +60,15 @@ const Matematicos = () => {
                 movimento levaram à lei da gravitação universal, a composição da luz branca conduzira à moderna física óptica, na matemática ele
                 lançou os fundamentos do cálculo infinitesimal.
             </p>
+            <figure className="figure-width-25-right">
+                <Image
+                    src={matematico1}
+                    alt="Isaac Newton - Biografia"
+                    width={200}
+                    height={274}
+                    layout="responsive"
+                />
+            </figure>
             <p>
                 Teve saúde extremamente frágil nos primeiros meses de vida e cedo perdeu o pai, sendo criado pelos avós quando a mãe se casou
                 novamente. Consta que não se destacava muito nos estudos antes da adolescência e que adorava ficar inventando e construindo
@@ -91,6 +106,15 @@ const Matematicos = () => {
                 transmitiu o pensamento chinês para a Europa. Para o seu trabalho, ele é considerado um progenitor de idealismo alemão e um
                 pioneiro do Esclarecimento.
             </p>
+            <figure className="figure-width-25-left">
+                <Image
+                    src={matematico2}
+                    alt="Gottfried Wilhelm von Leibniz - Biografia"
+                    width={200}
+                    height={253}
+                    layout="responsive"
+                />
+            </figure>
             <p>
                 Leibniz era o filho de um professor de filosofia moral em Leipzig. Uma juventude precoce, Leibniz aprendeu sozinho o latim e
                 algum grego aos 12 anos de idade. De 1661 a 1666 ele esteve na Universidade de Leipzig. Quando recusou admissão a seu programa
@@ -114,6 +138,15 @@ const Matematicos = () => {
                 Pierre de Fermat nasceu no dia 17 de agosto de 1601 em Beaumont-de-Lomages, França, e morreu no dia 12 de janeiro de 1665 em
                 Castres, França. Foi advogado e oficial do governo em Toulouse pela maior parte de sua vida. A matemática era o seu passatempo.
             </p>
+            <figure className="figure-width-25-right">
+                <Image
+                    src={matematico3}
+                    alt="Pierre de Fermat - Biografia"
+                    width={200}
+                    height={300}
+                    layout="responsive"
+                />
+            </figure>
             <p>
                 Em 1636, Fermat propôs um sistema de geometria analítica semelhante àquele que Descartes proporia um ano depois. O trabalho de
                 Fermat estava baseado em uma reconstrução do trabalho de Apollonius, usando a álgebra de Viète. Um trabalho semelhante conduziu
@@ -149,6 +182,15 @@ const Matematicos = () => {
                 abrindo o caminho para a introdução do cálculo integral. Entrou para a ordem jesuíta em Milão (1615) e transferiu-se para o
                 monastério de Pisa (1616), onde se interessou por matemática após conhecer Galileu, por meio do Cardeal Federico Borromeo.
             </p>
+            <figure className="figure-width-25-left">
+                <Image
+                    src={matematico4}
+                    alt="Francesco Bonaventura Cavalieri - Biografia"
+                    width={200}
+                    height={242}
+                    layout="responsive"
+                />
+            </figure>
             <p>
                 Em 1621, tornou-se assistente do Cardeal Federico Borromeo no monastério de Milão. Depois de ensinar teologia, tornou-se prior
                 de São Pedro, em Lodi (1623). Após três anos em Lodi, foi para o monastério de Parma, sendo nomeado para cadeira de matemática em

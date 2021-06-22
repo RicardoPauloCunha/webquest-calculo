@@ -8,7 +8,7 @@ const Home: React.FC = () => {
     return (
         <section>
             <Head>
-                <title>Definição | Webquest Cálculo</title>
+                <title>Definição - Webquest Cálculo</title>
             </Head>
 
             <h1>Cálculo Diferencial e Integral</h1>
@@ -16,7 +16,7 @@ const Home: React.FC = () => {
             <figure className="figure-width-100">
                 <Image
                     src={definicao1}
-                    alt="Banner de definição sobre cálculo. Foto de cottonbro no Pexels"
+                    alt="Cálculo Diferencial e Integral - Banner"
                     width={664}
                     height={122}
                     layout="responsive"
@@ -24,7 +24,7 @@ const Home: React.FC = () => {
             </figure>
 
             <p>
-                O cálculo diferencial e integral é um ramo importante da matemática, desenvolvido a partir da Álgebra e da Geometria, que se
+                O Cálculo Diferencial e Integral é um ramo importante da matemática, desenvolvido a partir da Álgebra e da Geometria, que se
                 dedica ao estudo de taxas de variação de grandezas (como a inclinação de uma reta) e a acumulação de quantidades
                 (como a área debaixo de uma curva ou o volume de um sólido).
             </p>

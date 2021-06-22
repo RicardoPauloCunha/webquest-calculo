@@ -2,7 +2,9 @@ import React, { useRef } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 
-import historia1 from '../../assets/historia-1.png'
+import calculo1 from '../../assets/calculo-1.jpg'
+import historia1 from '../../assets/historia-1.jpg'
+import historia2 from '../../assets/historia-2.jpg'
 
 const Historia = () => {
     const subtitle1 = useRef(null);
@@ -42,10 +44,10 @@ const Historia = () => {
     return (
         <section>
             <Head>
-                <title>História | Webquest Cálculo</title>
+                <title>História - Webquest Cálculo</title>
             </Head>
 
-            <h1>História do cálculo diferencial e integral</h1>
+            <h1>História do Cálculo Diferencial e Integral</h1>
 
             <h2>Índice</h2>
             <ul>
@@ -111,6 +113,15 @@ const Historia = () => {
                 Outra contribuição de Arquimedes foi a utilização do método da exaustão para encontrar a área do círculo, obtendo uma das
                 primeiras aproximações para o número p.
             </p>
+            <figure className="figure-width-40-right">
+                <Image
+                    src={historia1}
+                    alt="Teoremas de Arquimedes - Retrato arquimedes"
+                    width={300}
+                    height={199}
+                    layout="responsive"
+                />
+            </figure>
             <p>
                 Outras "integrações" foram realizadas por Arquimedes a fim de encontrar o volume da esfera e a área da superfície esférica,
                 o volume do cone e a área da superfície cônica, a área da região limitada por uma elipse, o volume de um paraboloide de revolução
@@ -150,8 +161,8 @@ const Historia = () => {
             </p>
             <div>
                 <Image
-                    src={historia1}
-                    alt="Demonstração do cálculo de integral usado atualmente"
+                    src={calculo1}
+                    alt="Primeiras conceitos de integral - Notação integral"
                     width={196}
                     height={66}
                 />
@@ -180,6 +191,15 @@ const Historia = () => {
                 Fundamental do Cálculo, estava trabalhando em direção a esse resultado. Foi Newton, entretanto, quem, continuando na mesma direção,
                 formulando o teorema.
             </p>
+            <figure className="figure-width-40-left">
+                <Image
+                    src={historia2}
+                    alt="O problema do movimento - Pêndulo tridimensional"
+                    width={300}
+                    height={248}
+                    layout="responsive"
+                />
+            </figure>
             <p>
                 Newton continuou os trabalhos de Barrow e Galileo sobre o estudo do movimento dos corpos e desenvolveu o Cálculo aproximadamente
                 dez anos antes de Leibniz. Ele desenvolveu os métodos das <i>fluxions</i> (derivação) e <i>fluents</i> (integração) e utilizou-os

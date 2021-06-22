@@ -5,14 +5,14 @@ const Sobre = () => {
     return (
         <section>
             <Head>
-                <title>Sobre | Webquest Cálculo</title>
+                <title>Sobre - Webquest Cálculo</title>
             </Head>
 
             <h1>Sobre</h1>
             <p>
-                Esse trabalho realizado tem o objetivo de explicar a história do Cálculo diferencial e integral e as aplicações do cálculo
-                integral. Sendo uma atividade complementar da disciplina de Cálculo da Fatec de Carapicuíba, ministrada pelo professor
-                Luciano Condori.
+                Esse trabalho realizado tem o objetivo de explicar a história do Cálculo Diferencial e Integral, as aplicações do cálculo
+                integral e a biografia dos principais matemáticos que contribuíram para essa área. Sendo uma atividade complementar da
+                disciplina de Cálculo da Fatec de Carapicuíba, ministrada pelo professor Luciano Condori.
             </p>
 
             <h2>Autor</h2>
@@ -30,7 +30,7 @@ const Sobre = () => {
             </p>
             <p>
                 <strong>Data:&nbsp;</strong>
-                <span>20/06/2021</span>
+                <span>21/06/2021</span>
             </p>
 
             <h2>Considerações finais</h2>

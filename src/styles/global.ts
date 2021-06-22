@@ -72,6 +72,24 @@ export default createGlobalStyle`
             width: 100%;
             margin: 2rem 0;
         }
+
+        &.figure-width-40-right, &.figure-width-25-right {
+            width: 40%;
+            margin-left: 1rem;
+            margin-bottom: 0.5rem;
+            float: right;
+        }
+
+        &.figure-width-40-left, &.figure-width-25-left {
+            width: 40%;
+            margin-right: 1rem;
+            margin-bottom: 0.5rem;
+            float: left;
+        }
+
+        &.figure-width-25-right, &.figure-width-25-left {
+            width: 25%;
+        }
     }
 
     h1 {
@@ -92,6 +110,7 @@ export default createGlobalStyle`
 
     p {
         margin-bottom: 1rem;
+        line-height: 1.7rem;
     }
 
     i {
@@ -100,6 +119,10 @@ export default createGlobalStyle`
 
     em {
         color: ${props => props.theme.colors.emphasis};
+    }
+
+    sup {
+        margin-left: 2px;
     }
 
     @media (max-width: 1080px) {
