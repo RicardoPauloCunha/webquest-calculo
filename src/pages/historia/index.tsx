@@ -62,13 +62,13 @@ const Historia = () => {
                 >3 - Área de uma região elíptica</span></li>
                 <li><span
                     onClick={() => handlerClickIndex(4)}
-                >4 - Primeiras conceitos de integral</span></li>
+                >4 - Primeiros conceitos de integral</span></li>
                 <li><span
                     onClick={() => handlerClickIndex(5)}
-                >5 - O problema do movimento</span></li>
+                >5 - Problema do movimento</span></li>
                 <li><span
                     onClick={() => handlerClickIndex(6)}
-                >6 - Notações das integrais</span></li>
+                >6 - Notação das integrais</span></li>
                 <li><span
                     onClick={() => handlerClickIndex(7)}
                 >7 - Enfim o cálculo integral</span></li>
@@ -149,7 +149,7 @@ const Historia = () => {
                 infinitésimos se aproximava do volume desejado.
             </p>
 
-            <h2 ref={subtitle4} tabIndex={3}>Primeiras conceitos de integral</h2>
+            <h2 ref={subtitle4} tabIndex={3}>Primeiros conceitos de integral</h2>
             <p>
                 Os próximos matemáticos que tiveram grande contribuição para o nascimento do Cálculo Integral foram Fermat e Cavalieri.
                 Em sua obra mais conhecida, <i>Geometria indivisibilibus continuorum nova</i>, Cavalieri desenvolveu a ideia de Kepler sobre
@@ -162,7 +162,7 @@ const Historia = () => {
             <div>
                 <Image
                     src={calculo1}
-                    alt="Primeiras conceitos de integral - Notação integral"
+                    alt="Primeiros conceitos de integral - Notação integral"
                     width={196}
                     height={66}
                 />
@@ -179,7 +179,7 @@ const Historia = () => {
                 parábolas maiores era conhecida por Fermat, Blaise Pascal, Descartes, Torricelli e outros.
             </p>
 
-            <h2 ref={subtitle5} tabIndex={4}>O problema do movimento</h2>
+            <h2 ref={subtitle5} tabIndex={4}>Problema do movimento</h2>
             <p>
                 O problema do movimento estava sendo estudado desde a época de Galileo. Tanto Torricelli como Barrow consideraram o problema do
                 movimento com velocidades variadas. A derivada da distância era a velocidade e a operação inversa, partindo da velocidade, levava
@@ -194,7 +194,7 @@ const Historia = () => {
             <figure className="figure-width-40-left">
                 <Image
                     src={historia2}
-                    alt="O problema do movimento - Pêndulo tridimensional"
+                    alt="Problema do movimento - Pêndulo tridimensional"
                     width={300}
                     height={248}
                     layout="responsive"
@@ -211,7 +211,7 @@ const Historia = () => {
                 a velocidade.
             </p>
 
-            <h2 ref={subtitle6} tabIndex={5}>Notações das integrais</h2>
+            <h2 ref={subtitle6} tabIndex={5}>Notação das integrais</h2>
             <p>
                 Newton representava as integrais por um acento grave acima da letra em questão, por exemplo, a integral de <em>y</em> era
                 representada por <em>`y</em>.
