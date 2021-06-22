@@ -59,8 +59,6 @@ export const Container = styled.nav<ContainerProps>`
     }
 
     @media(max-width: 720px) {
-        width: 40vh;
-
         >div:first-of-type {
             width: 100vw;
             height: 4rem;
