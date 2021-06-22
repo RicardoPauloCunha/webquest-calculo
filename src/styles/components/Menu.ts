@@ -17,6 +17,7 @@ export const Container = styled.nav<ContainerProps>`
     display: flex;
     flex-direction: column;
     position: fixed;
+    z-index: 1;
 
     >div:first-of-type {
         padding: 2rem 2rem 1rem 2rem;
@@ -69,7 +70,7 @@ export const Container = styled.nav<ContainerProps>`
 
             flex-direction: row;
             align-items: center;
-            z-index: 1000;
+            z-index: 1;
 
             >span:first-of-type {
                 margin-right: 1rem;
@@ -82,11 +83,11 @@ export const Container = styled.nav<ContainerProps>`
 
         >div.menu-shandow {
             display: block;
-            z-index: 999;
+            z-index: 0;
         }
 
         >ul {
-            z-index: 1000;
+            z-index: 1;
             height: 100%;
         }
 
